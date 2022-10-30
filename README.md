@@ -1,6 +1,6 @@
 #Candy Group
 ## Technologies
 * NodeJs
-    * ExpressJs
+* ExpressJs
 * Sequelize
 * MySql
