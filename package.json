@@ -1,0 +1,33 @@
+{
+  "name": "candy-group",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node scr/app",
+    "dev": "nodemon scr/app",
+    "migrate": "cd scr && npx sequelize-cli db:migrate",
+    "unmigrate": "cd scr && npx sequelize-cli db:migrate:undo",
+    "seed": "cd scr && npx sequelize-cli db:seed:all",
+    "unseed": "cd scr && npx sequelize-cli db:seed:undo"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "pm2": "^5.2.0",
+    "redis": "^4.3.0",
+    "sequelize": "^6.25.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "sequelize-cli": "^6.5.2"
+  }
+}
