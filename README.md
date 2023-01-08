@@ -2,5 +2,6 @@
 ## Technologies
 * NodeJs
 * ExpressJs
+* Joi
 * Sequelize
 * MySql
